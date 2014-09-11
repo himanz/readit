@@ -56,3 +56,10 @@ angular.module('flapperNews', ['ui.router'])
   }
 ])
 
+.controller('PostsCtrl', [
+'$scope',
+'$stateParams',
+'posts',
+function ($scope, $stateParams, posts){
+}]);
+
