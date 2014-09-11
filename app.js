@@ -1,4 +1,4 @@
-angular.module('flapperNews', [])
+angular.module('flapperNews', ['ui.router'])
 
 // {title: 'post 1', upvotes: 5},
 //       {title: 'post 2', upvotes: 2},
