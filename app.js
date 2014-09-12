@@ -37,7 +37,7 @@ angular.module('flapperNews', ['ui.router'])
   '$scope',
   'posts',
   function($scope, posts){
-    $scope.posts = posts.posts;
+    $scope.posts = posts.posts[$stateParams.id];
 
     $scope.addPost = function(){
     	if ($scope.title === '') { return; } 
